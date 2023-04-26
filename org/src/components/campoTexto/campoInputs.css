@@ -1,0 +1,18 @@
+.campo-texto-label, .campo-select-label {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.125rem;
+    font-weight: 600;
+    display: block;
+    margin-bottom: 0.5rem;
+}
+
+.campo-texto-input, .campo-select-option {
+    width: 100%;
+    background-color: #fff;
+    box-shadow: 0.625rem 0.625rem 0.625rem rgba(0, 0, 0, 0.06);
+    border: none;
+    outline-color: #6278F7;
+    font-size: 1rem;
+    padding: 1.875rem 1.25rem; 
+    box-sizing: border-box;
+}
