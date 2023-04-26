@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/react-team-organization/static/css/main.040f76f6.css",
-    "main.js": "/react-team-organization/static/js/main.05ba73ed.js",
+    "main.js": "/react-team-organization/static/js/main.8c91b791.js",
     "static/js/496.975c193a.chunk.js": "/react-team-organization/static/js/496.975c193a.chunk.js",
     "index.html": "/react-team-organization/index.html",
     "main.040f76f6.css.map": "/react-team-organization/static/css/main.040f76f6.css.map",
-    "main.05ba73ed.js.map": "/react-team-organization/static/js/main.05ba73ed.js.map",
+    "main.8c91b791.js.map": "/react-team-organization/static/js/main.8c91b791.js.map",
     "496.975c193a.chunk.js.map": "/react-team-organization/static/js/496.975c193a.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.040f76f6.css",
-    "static/js/main.05ba73ed.js"
+    "static/js/main.8c91b791.js"
   ]
 }
