@@ -133,7 +133,8 @@ const actualizarColor = (color, id) => {
           formulario && <Formulario equipos={equipos.map((equipo) => equipo.titulo)}
            registrarColaborador={registrarColaborador}
            crearEquipo={crearEquipo}
-          />
+
+           />
         }
          
          <MiOrg cambiarFormulario={cambiarFormulario}/> 

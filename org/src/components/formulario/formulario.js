@@ -28,6 +28,7 @@ const Formulario = (props) => {
         registrarColaborador(datos)
     }
 
+
     const manejarNuevoEquipo = (e) => {
         e.preventDefault();
         crearEquipo({titulo, colorPrimario: color})
@@ -49,6 +50,7 @@ const Formulario = (props) => {
             <CampoTexto titulo="Color" placeholder="Ingrese el color en Hex" required valor={color} actualizarValor={actualizarColor} />
             <Boton texto="Crear equipo" />
         </form>
+
     </section>
 }
 
