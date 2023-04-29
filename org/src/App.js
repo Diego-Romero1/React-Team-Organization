@@ -103,8 +103,9 @@ const registrarColaborador = (colaborador) => {
 }
 
 //eliminar colaborador
-const eliminarColaborador = (equipo) => {
-  console.log("Eliminando equipo", equipo)
+const eliminarColaborador = (id) => {
+  const nuevosColaboradores = colaboradores.filter((colaborador) => colaborador.id !== id);
+  actualizarColaboradores(nuevosColaboradores);
 }
 
 
