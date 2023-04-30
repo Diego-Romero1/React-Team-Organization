@@ -1,4 +1,4 @@
-import '../campoTexto/campoInputs.css'
+import '../campo/campoInputs.css'
 const ListaOpciones = (props) => {
 
     const manejarCambio = (e) => {
