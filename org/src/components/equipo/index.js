@@ -3,7 +3,7 @@ import Colaborador from '../colaboradores';
 import hexToRgba from 'hex-to-rgba';
 const Equipo = (props) => {
     const { colorPrimario, titulo, id } = props.datos;
-    const { colaboradores, eliminarColaborador, actualizarColor } = props;
+    const { colaboradores, eliminarColaborador, actualizarColor, like } = props;
 
 
     return <> {colaboradores.length > 0 &&
@@ -29,6 +29,7 @@ const Equipo = (props) => {
                         key={index}
                         colorPrimario={colorPrimario}
                         eliminarColaborador={eliminarColaborador}
+                        like={like}
                     />)
                 }
             </div>
